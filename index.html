@@ -1,13 +1,19 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ecommerce</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ShopLite</title>
+  <style>
+    body { font-family: Arial; margin:0; }
+    nav { background:#0044a9; color:white; padding:10px; }
+    nav a { color:white; margin-right:15px; text-decoration:none; }
+    .container { padding:20px; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); gap:15px;}
+    .card { border:1px solid #ccc; padding:10px; border-radius:8px;}
+  </style>
+</head>
+<body>
+<div id="root"></div>
+<script type="module" src="/src/main.jsx"></script>
+</body>
 </html>
